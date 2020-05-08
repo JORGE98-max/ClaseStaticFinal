@@ -21,10 +21,10 @@ public class SiguiendoEjercicios {
 	     break;
 	     case 6: System.out.println("BIEN");
 	     break;
-	     case 7: System.out.println("NOTABLE");
+	     case 7: 
 	     case 8: System.out.println("NOTABLE");
 	     break;
-	     case 9: System.out.println("SOBRESALIENTE");
+	     case 9: 
 	     case 10: System.out.println("SOBRESALIENTE");
 	     break;
 	     }
