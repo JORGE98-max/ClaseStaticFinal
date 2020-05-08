@@ -6,27 +6,32 @@ public class SiguiendoEjercicios {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner (System.in);
 		
-		System.out.println("Ingrese el primer numero: ");
+		System.out.println("Ingrese su nota: ");
 	     not = scan.nextInt();
 	     
-	     if(not >= 0 && not < 5) 
-	    	 
-	    	 System.out.println("INSUFICIENTE");
-	    	 else if (not == 5) 
-	    		 System.out.println("SUFICIENTE");
-	    	 
-	    	 else if(not == 6) 
-	    		 System.out.println("BIEN");
-	    	 
-	    	 else if (not == 7 || not == 8) 
-	    		 System.out.println("NOTABLE");
-	    	 
-	    	 else if (not == 9 || not == 10) 
-	    		 System.out.println("SOBRESALIENTE");
-	    	
-	    	 
-	    	 
+	     switch (not) {
 	     
+	     case 0: System.out.println("INSUFICIENTE");
+	     case 1: System.out.println("INSUFICIENTE");
+	     case 2: System.out.println("INSUFICIENTE");
+	     case 3: System.out.println("INSUFICIENTE");
+	     case 4: System.out.println("INSUFICIENTE");
+	     break;
+	     case 5: System.out.println("SUFICIENTE");
+	     break;
+	     case 6: System.out.println("BIEN");
+	     break;
+	     case 7: System.out.println("NOTABLE");
+	     case 8: System.out.println("NOTABLE");
+	     break;
+	     case 9: System.out.println("SOBRESALIENTE");
+	     case 10: System.out.println("SOBRESALIENTE");
+	     break;
+	     }
+	     
+	     
+
+	    	 
 	     
 	     
 	     
