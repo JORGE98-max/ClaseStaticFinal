@@ -6,7 +6,7 @@ public class Numeroalreves {
 	public static void main(String[] args) {
 
 		String Cambionum;
-		String palabrainvertida;
+		String numeroinvertida;
 		
 		Scanner scan = new Scanner (System.in);
 		
@@ -15,9 +15,9 @@ public class Numeroalreves {
 		
 		Cambionum = Integer.toString(numero); //Convierto el int a String
 	    StringBuffer buffer = new StringBuffer (Cambionum);
-	    palabrainvertida = buffer.reverse(). toString(); // invierto la cadena
+	    numeroinvertida = buffer.reverse(). toString(); // invierto la cadena
         
-	        System.out.println("El numero invertido es : "+palabrainvertida);
+	        System.out.println("El numero invertido es : "+numeroinvertida);
 	}
 
 }
